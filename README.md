@@ -1,6 +1,8 @@
 # chia-plotter-with-scpm
 This is a simple program to run [Swar-Chia-Plot-Manager](https://github.com/swar/Swar-Chia-Plot-Manager) on a container.
 
+Other Language: [English](README.md), [日本語](README.ja.md)
+
 ## Startup
 ```
 docker run --name <container-name> -d ghcr.io/mizuki-momose/chia-plotter-with-scpm/plotter:0.1 -v /path/to/plots:/plots -v /path/to/config.yaml:/Swar-Chia-Plot-Manager/config.yaml
